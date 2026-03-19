@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# 🚀 Anchor – Personalized Pomodoro Productivity App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Anchor is a modern productivity application built using React Native and Expo that enhances the traditional Pomodoro technique through personalization and adaptive focus sessions.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- ⏱️ Customizable focus duration (15 / 25 / 45 / 60 minutes)
+- 🎯 Personalized onboarding experience
+- 🧠 Adaptive break suggestions based on user preference
+- 🔄 Automatic focus → break → cycle transitions
+- 🎨 Focus mode UI customization (color themes)
+- 📱 Clean and minimal distraction-free interface
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo Router
+- AsyncStorage
+- TypeScript
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 Application Flow
 
-## Get a fresh project
+1. User completes onboarding  
+2. Preferences are stored locally  
+3. Focus session begins  
+4. Timer counts down  
+5. Break session starts automatically  
+6. Personalized suggestions are displayed  
 
-When you're ready, run:
+---
+
+##  Screenshots
+
+###  Focus Duration Selection
+![Focus Duration](screenshots/focus-duration.jpeg)
+
+###  Break Preference Selection
+![Break Preference](screenshots/break-preference.jpeg)
+
+###  Flexibility Level Selection
+![Flexibility](screenshots/flexibility.jpeg)
+
+###  Home Screen (Idle State)
+![Home](screenshots/home.jpeg)
+
+###  Focus Mode (Timer Running)
+![Timer](screenshots/timer.jpeg)
+
+###  Break Mode with Suggestions
+![Break](screenshots/break.jpeg)
+
+
+---
+
+## ⚙️ Installation & Setup
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
