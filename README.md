@@ -37,23 +37,17 @@ Anchor is a modern productivity application built using React Native and Expo th
 
 ##  Screenshots
 
-###  Focus Duration Selection
-![Focus Duration](screenshots/focus-duration.jpeg)
+<p align="center">
+  <img src="screenshots/focus-duration.jpeg" width="200"/>
+  <img src="screenshots/break-preference.jpeg" width="200"/>
+  <img src="screenshots/flexibility.jpeg" width="200"/>
+</p>
 
-###  Break Preference Selection
-![Break Preference](screenshots/break-preference.jpeg)
-
-###  Flexibility Level Selection
-![Flexibility](screenshots/flexibility.jpeg)
-
-###  Home Screen (Idle State)
-![Home](screenshots/home.jpeg)
-
-###  Focus Mode (Timer Running)
-![Timer](screenshots/timer.jpeg)
-
-###  Break Mode with Suggestions
-![Break](screenshots/break.jpeg)
+<p align="center">
+  <img src="screenshots/home.jpeg" width="200"/>
+  <img src="screenshots/timer.jpeg" width="200"/>
+  <img src="screenshots/break.jpeg" width="200"/>
+</p>
 
 
 ---
